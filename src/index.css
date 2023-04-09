@@ -1,0 +1,48 @@
+:root {
+	--light-gray: #ededed;
+	--dark-gray: #646464;
+	--dark-blue: #1c73a8;
+	--light-blue: #00baff;
+	--shadow: 0.2rem 0.2rem 0rem rgba(0, 0, 0, 0.2);
+	--radius: 0.4rem;
+	--max-width-desktop: 132rem;
+	--max-width-moible: 48rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+input {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+button {
+	border: none;
+	font-family: 'Poppins';
+	cursor: pointer;
+}
